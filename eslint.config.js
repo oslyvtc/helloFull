@@ -22,6 +22,6 @@ export default defineConfig([
     rules: {
       'no-console': 'warn',
     },
-    eslintConfigPrettier,
   },
+  eslintConfigPrettier,
 ]);
