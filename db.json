@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Learn React Router",
+      "description": "Understand routing and navigation",
+      "status": "done"
+    },
+    {
+      "id": "2",
+      "title": "Learn Material UI",
+      "description": "Understand component libraries",
+      "status": "done"
+    },
+    {
+      "id": "3",
+      "title": "Learn REST API",
+      "description": "Understand communication with backend",
+      "status": "done"
+    },
+    {
+      "title": "Learn TanStack Query",
+      "description": "Understand server state",
+      "status": "todo",
+      "id": "pvU9s0D81qE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
