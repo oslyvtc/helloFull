@@ -11,7 +11,7 @@ export type ViewMode = 'list' | 'grid';
 
 type TaskFiltersState = {
   statusFilter: StatusFilter;
-  search: boolean;
+  search: string;
   viewMode: ViewMode;
 };
 
