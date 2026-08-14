@@ -4,23 +4,21 @@ import { initReactI18next } from 'react-i18next';
 import { en } from './en';
 import { uk } from './uk';
 
-i18n
-  .use(initReactI18next)
-  .init({
-    resources: {
-      en,
-      uk,
-    },
+i18n.use(initReactI18next).init({
+  resources: {
+    en,
+    uk,
+  },
 
-    lng: 'en',
+  lng: 'en',
 
-    fallbackLng: 'en',
+  fallbackLng: 'en',
 
-    supportedLngs: ['en', 'uk'],
+  supportedLngs: ['en', 'uk'],
 
-    interpolation: {
-      escapeValue: false,
-    },
-  });
+  interpolation: {
+    escapeValue: false,
+  },
+});
 
 export default i18n;

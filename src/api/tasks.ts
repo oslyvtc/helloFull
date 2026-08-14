@@ -29,10 +29,8 @@ export async function updateTask(id: string, task: Partial<CreateTask>): Promise
   });
 }
 
-export function deleteTask(
-    id: string,
-  ): Promise<void> {
-    return apiFetch<void>(`/tasks/${id}`, {
-      method: 'DELETE',
-    });
-  }
+export function deleteTask(id: string): Promise<void> {
+  return apiFetch<void>(`/tasks/${id}`, {
+    method: 'DELETE',
+  });
+}

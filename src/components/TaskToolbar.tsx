@@ -9,10 +9,7 @@ function TaskToolbar() {
   const statusFilter = useTaskFiltersStore((state) => state.statusFilter);
 
   const setStatusFilter = useTaskFiltersStore((state) => state.setStatusFilter);
-  const resetFilters =
-  useTaskFiltersStore(
-    (state) => state.resetFilters,
-  );
+  const resetFilters = useTaskFiltersStore((state) => state.resetFilters);
 
   return (
     <>
@@ -39,9 +36,7 @@ function TaskToolbar() {
 
         <MenuItem value="done">Done</MenuItem>
       </TextField>
-      <Button onClick={resetFilters}>
-  Reset filters
-</Button>
+      <Button onClick={resetFilters}>Reset filters</Button>
     </>
   );
 }
